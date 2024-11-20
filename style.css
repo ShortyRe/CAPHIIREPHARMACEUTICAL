@@ -1,0 +1,574 @@
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.desktop {
+    background-color: #ffe9f1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh
+  }
+  
+  .desktop .div {
+    background-color: #ffe9f1;
+    overflow: hidden;
+    width: 1440px;
+    height: 2315px;
+    position: relative;
+  }
+
+  .desktop .bodyy {
+    background-color: #ffe9f1;
+    overflow: hidden;
+    width: 1440px;
+    /* height: 2315px; */
+    position: relative;
+  }
+  
+  .desktop .overlap {
+    width: 100%;
+    height: 143px;
+    top: 0;
+    background-color: #c5d6e6;
+    border-radius:  0 0 30px 30px;
+    position: absolute;
+    left: 0;
+    z-index: 10;
+  }
+  
+  .desktop .frame {
+    display: inline-flex;
+    align-items: center;
+    gap: 340px;
+    position: relative;
+    top: 39px;
+    left: 28px;
+
+    
+  }
+
+  .hubungi{
+    display: flex;
+    margin-top: 120px;
+    position: relative;
+    margin-bottom: 300px;
+  }
+
+  .hubungi .image{
+    width: 1468px;
+height: 892px;
+  }
+  
+  .desktop .text-wrapper {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-weight: 900;
+    color: #9a6485;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: normal;
+    font-family: 'Kalam';
+  }
+
+  .navbar-item {
+    color: #090909; 
+    text-decoration: none; 
+    font-size: 16px; /* Font size for the links */
+    font-weight: normal; /* Regular font weight */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition on hover */
+    border-radius: 5px; /* Rounded corners for the buttons */
+  }
+  
+  .navbar-item:hover{
+    color:#9f76e2;; /* Change text color to white on hover */
+    text-decoration: none; 
+    
+  }
+  
+  .navbar-item-active{
+    color:#193961; /* Change text color to white on hover */
+    text-decoration: none; 
+    font-weight: bold;
+  }
+  
+
+  .desktop .frame-2 {
+    display: inline-flex;
+    align-items: center;
+    gap: 84px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .desktop .text-wrapper-2 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: "Kalam-Bold", Helvetica;
+    font-weight: 700;
+    color: #193861;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .text-wrapper-3 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: "Kalam-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .rectangle {
+    position: absolute;
+    width: 1440px;
+    height: 471px;
+    top: 6069px;
+    left: 0;
+    background-color: #e1e9ef;
+  }
+  
+  .desktop .overlap-group {
+    width: 1440px;
+    height: 954px;
+    top: 1042px;
+    position: absolute;
+    left: 0;
+}
+  
+  .desktop .rectangle-2 {
+    position: absolute;
+    width: 1440px;
+    height: 934px;
+    top: 20px;
+    left: 0;
+    background-color: #d3b9c3;
+    background-image: url("assets/bgTentang.jpeg");
+  }
+  
+  .desktop .rectangle-3 {
+    position: absolute;
+    width: 497px;
+    height: 85px;
+    top: 50px;
+    left: 95px;
+    background-color: #a5b3b7;
+  }
+  
+  .desktop .text-wrapper-4 {
+    position: absolute;
+    top: 49px;
+    left: 171px;
+    font-family: 'Handlee';
+    font-weight: 400;
+    color: #000000;
+    font-size: 64px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .selamat-datang-di {
+    position: absolute;
+    width: 1266px;
+    top: 146px;
+    font-family: 'Handlee';
+    font-weight: 400;
+    color: #000000;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .image {
+    position: absolute;
+    width: 1440px;
+    height: 954px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .desktop .frame-3 {
+    display: inline-flex;
+    align-items: center;
+    gap: 35px;
+    position: absolute;
+    top: 202px;
+    left: 58px;
+  }
+  
+  .desktop .group {
+    position: relative;
+    width: 602px;
+    height: 434px;
+  }
+  
+  .desktop .overlap-group-2 {
+    width: 598px;
+    height: 373px;
+    top: 61px;
+    position: absolute;
+    left: 0;
+  }
+  
+  .desktop .produk-kesehatan-dan {
+    position: absolute;
+    width: 598px;
+    top: 0;
+    left: 0;
+    font-family: 'Handlee';
+    font-weight: 400;
+    color: #000000;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .text-wrapper-5 {
+    position: absolute;
+    top: 202px;
+    left: 184px;
+    font-family: "Handlee-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 128px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .icon-home {
+    position: absolute;
+    width: 39px;
+    height: 28px;
+    top: 0;
+    left: 281px;
+  }
+  
+  .desktop .img {
+    position: relative;
+    width: 650px;
+    height: 725px;
+  }
+  
+  
+
+  .desktop .footer {
+    display: flex;
+  width: 100%; /* To make sure it spans across the page */
+  height: 300px;
+  align-items: center;
+  justify-content: center; /* Center the content horizontally */
+  gap: 230px; /* Adjust as necessary */
+  position: absolute;
+  bottom: 0; /* Pin it to the bottom */
+  left: 0;
+  background-color: #FFE9F2; /* Optional: background color */
+  padding: 20px 50px; /* Optional: padding */
+  z-index: 10; /* Ensures it stays above other content */
+  }
+
+  .desktop .footer2 {
+    display: flex;
+  width: 100%; /* To make sure it spans across the page */
+  height: 300px;
+  align-items: center;
+  justify-content: center; /* Center the content horizontally */
+  gap: 230px; /* Adjust as necessary */
+  position: absolute;
+  bottom: 0; /* Pin it to the bottom */
+  left: 0;
+  background-color: #C6D7E7; /* Optional: background color */
+  padding: 20px 50px; /* Optional: padding */
+  z-index: 10; /* Ensures it stays above other content */
+  }
+  
+  .desktop .frame-5 {
+    display: inline-flex;
+    align-items: center;
+    gap: 18px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .desktop .image-2 {
+    position: relative;
+    width: 199px;
+    height: 184px;
+    object-fit: cover;
+  }
+  
+  .desktop .frame-6 {
+    display: flex;
+    flex-direction: column;
+    width: 244px;
+    align-items: flex-start;
+    gap: 9px;
+    position: relative;
+  }
+  
+  .desktop .group-2 {
+    position: relative;
+    width: 201px;
+    height: 37px;
+  }
+  
+  .desktop .text-wrapper-6 {
+    position: absolute;
+    top: 10px;
+    left: 47px;
+    font-family: 'Kameron';
+    font-weight: 600;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .desktop .image-3 {
+    position: absolute;
+    width: 33px;
+    height: 37px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .desktop .group-3 {
+    position: relative;
+    width: 246px;
+    height: 35px;
+    margin-right: -2.00px;
+  }
+  
+  .desktop .text-wrapper-7 {
+    position: absolute;
+    top: 10px;
+    left: 48px;
+    font-family: 'Kameron';
+    font-weight: 600;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .desktop .image-4 {
+    position: absolute;
+    width: 33px;
+    height: 35px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+
+  .desktop .image-6 {
+    position: absolute;
+    width: 42px;
+    height: 33px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .desktop .group-4 {
+    position: relative;
+    width: 229px;
+    height: 50.77px;
+  }
+  
+  .desktop .group-5 {
+    position: relative;
+    width: 229px;
+    height: 50.77px;
+  }
+
+  .desktop .text-wrapper-8 {
+    position: absolute;
+    top: 18px;
+    left: 49px;
+    font-family: 'Kameron';
+    font-weight: 600;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .desktop .image-5 {
+    position: absolute;
+    width: 33px;
+    height: 51px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .desktop .overlap-group-wrapper {
+    position: relative;
+    width: 583px;
+    height: 106px;
+  }
+  
+  .desktop .overlap-group-3 {
+    position: relative;
+    width: 581px;
+    height: 106px;
+  }
+  
+  .desktop .p {
+    position: absolute;
+    width: 581px;
+    top: 0;
+    left: 0;
+    font-family: "Kameron-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .image-6 {
+    position: absolute;
+    width: 117px;
+    height: 41px;
+    top: 65px;
+    left: 207px;
+    object-fit: cover;
+    margin-top: 10px;
+  }
+  
+  .desktop .image-10 {
+    position: absolute;
+    width: 42px;
+    height: 33px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+
+  /* Search bar styles */
+.search-bar {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  height: 70px;
+  margin: 20px 0px;
+  border: none;
+  margin-top: 200px;
+}
+
+.search-input {
+  background-color: #c5d6e6; 
+  padding: 10px;
+  padding-left: 15px;
+  width: 500px;
+  height: 50px;
+  border: none; /* Remove border */
+  border-radius: 20px 0 0 20px;
+  font-size: 16px;
+  font-family: Tillana;
+}
+
+.search-button {
+  padding: 10px;
+  border: none;
+  border-radius: 0 20px 20px 0;
+  background-color: #c5d6e6; 
+  cursor: pointer;
+}
+
+.search-button img {
+  height: 20px;
+  width: 20px;
+}
+
+/* Product grid styles */
+.product-grid {
+  text-align: center;
+  background-color: #ffe9f1; /* Background sesuai */
+  padding: 20px 0px;
+  margin-bottom: 300px;
+}
+
+.product-title {
+  display: flex;
+  justify-content: flex-start;
+  color: #193861; /* Warna teks biru */
+  margin-bottom: 20px;
+  color: #000;
+font-family: Kadwa;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
+  padding: 0 20px;
+  margin-bottom: 100px;
+}
+
+.product-item {
+  position: relative;
+  background-color: #f5f5f5; /* Warna dasar kotak */
+  border-radius: 8px;
+  overflow: hidden;
+  width: 300px; /* Adjust based on your card size */
+  height: 380px; /* Adjust to match the aspect ratio */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.product-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
+
+.product-item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures image covers the entire card */
+}
+
+.product-name {
+  position: absolute;
+  bottom: 5px; /* Adjust to position title */
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 20px;
+  color: #193861;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-align: center;
+  white-space: nowrap;
+  color: #000;
+font-family: Kameron;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
